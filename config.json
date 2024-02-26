@@ -7,8 +7,8 @@
 		"Type": 2,
 		"Port": "8989",
 		"Rules": {
-			"tv360.vn:80": [
-				"8.219.218.223"
+			"akamai.net:80": [
+				"125.235.36.177"
 			]
 		},
 		"Payload": "",
@@ -21,13 +21,13 @@
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
-		"Region": "VN",
+		"Region": "SG",
 		"Protocols": [
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 8,
-		"KuotaDataLimit": 0,
+		"TunnelWorkers": 2,
+		"KuotaDataLimit": 1,
 		"Authorizations": []
 	}
 }

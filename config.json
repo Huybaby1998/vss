@@ -4,29 +4,29 @@
 	},
 	"Inject": {
 		"Enable": true,
-		"Type": 8,
+		"Type": 2,
 		"Port": "8989",
 		"Rules": {
-			"akamai.net:80": [
-				"125.235.36.177"
+			"tv360.vn:80": [
+				"8.219.218.223"
 			]
 		},
 		"Payload": "",
 		"ServerNameIndication": "",
 		"MeekType": 0,
-		"Timeout": 8,
+		"Timeout": 5,
 		"ShowLog": false
 	},
 	"PsiphonCore": 8,
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
-		"Region": "SG",
+		"Region": "VN",
 		"Protocols": [
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 12,
+		"TunnelWorkers": 8,
 		"KuotaDataLimit": 0,
 		"Authorizations": []
 	}

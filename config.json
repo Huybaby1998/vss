@@ -7,8 +7,8 @@
 		"Type": 2,
 		"Port": "8989",
 		"Rules": {
-			"imageakm1.tv360.vn:80": [
-				"2.18.49.127"
+			"akamai.net:80": [
+				"125.235.36.177"
 			]
 		},
 		"Payload": "",
@@ -17,7 +17,7 @@
 		"Timeout": 5,
 		"ShowLog": false
 	},
-	"PsiphonCore": 4,
+	"PsiphonCore": 12,
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,

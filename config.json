@@ -4,17 +4,17 @@
 	},
 	"Inject": {
 		"Enable": true,
-		"Type": 2,
+		"Type": 8,
 		"Port": "8989",
 		"Rules": {
 			"akamai.net:80": [
-				"2.18.49.127"
+				"125.235.36.177"
 			]
 		},
 		"Payload": "",
 		"ServerNameIndication": "",
 		"MeekType": 0,
-		"Timeout": 5,
+		"Timeout": 8,
 		"ShowLog": false
 	},
 	"PsiphonCore": 8,
@@ -26,7 +26,7 @@
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 8,
+		"TunnelWorkers": 12,
 		"KuotaDataLimit": 0,
 		"Authorizations": []
 	}

@@ -7,7 +7,7 @@
 		"Type": 2,
 		"Port": "8989",
 		"Rules": {
-			"imageakm1.tv360.vn:80": [
+			"akamai.net:80": [
 				"2.18.49.127"
 			]
 		},
@@ -21,7 +21,7 @@
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
-		"Region": "VN",
+		"Region": "SG",
 		"Protocols": [
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
